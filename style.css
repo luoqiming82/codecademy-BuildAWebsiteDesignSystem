@@ -1,0 +1,51 @@
+/* title */
+.title{
+    font-family: ;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+/* font */
+    /*
+        font-family: 'Lobster', cursive;
+
+        font-family: 'Montserrat', sans-serif;
+
+        font-family: 'Sono', sans-serif;
+    */
+    .subtitle {
+        font-style: italic;
+        color:brown;
+        font-size: xx-large;
+    }
+
+    .font-lobster {
+        font-family: 'Lobster', serif;
+    }
+
+    .font-sono {
+        font-family: 'Sono', serif;
+    }
+
+    .font-montserrat {
+        font-family: 'Montserrat', sans-serif;;
+    }
+
+    .font-italic {
+        font-style: italic;
+    }
+    .font-bold{
+        font-weight: bold;
+    }
+    .font-underline{
+        text-decoration: underline;
+    }
+
+    .font div {
+        border: 1px dotted aqua;
+        margin-bottom: 10px;
+    }
+/* text-style */
+/* color */

@@ -1,10 +1,36 @@
 /* title */
 .title{
-    font-family: ;
     text-align: center;
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
+}
+
+/*nav*/
+nav{
+    padding-left: 0;
+}
+.breadscrumb{
+    padding-left: 0;
+}
+.breadscrumb li{
+    display: inline;
+    padding: 5px 10px 5px 0;
+}
+
+.breadscrumb li+li::before{
+    content: "/";
+    padding-right: 10px;
+}
+
+.breadscrumb a{
+    text-decoration: none;
+}
+
+.breadscrumb a:hover{
+    color: red;
+    background-color: aqua;
+    padding: 5px;
 }
 
 /* font */
@@ -15,6 +41,11 @@
 
         font-family: 'Sono', sans-serif;
     */
+    .font{
+        margin-top: 20px;
+        border-style: solid none none none;
+    }
+
     .subtitle {
         font-style: italic;
         color:brown;
@@ -44,8 +75,64 @@
     }
 
     .font div {
-        border: 1px dotted aqua;
+        border: 1px dotted seagreen;
         margin-bottom: 10px;
+        padding-left: 10px;
     }
 /* text-style */
+.text-style{
+    margin-top: 20px;
+    border-style: solid none none none;
+}
+
+.text-style div {
+        border: 1px dotted seagreen;
+        margin-bottom: 10px;
+        padding-left: 10px;
+}
+
+.heading-style {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.subheading-style {
+    font-family: 'Sono', sans-serif;
+    font-style: italic;
+}
+
+.para-style {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
 /* color */
+.color {
+    margin-top: 20px;
+    border-style: solid none none none;
+}
+
+.color div{
+    padding: 10px;
+}
+
+.color p {
+    text-align: center;
+    font-size: large;
+}
+
+.color-brown {
+    background-color: brown;
+    color: white;
+}
+
+.color-green {
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+}
+
+.color-aliceblue {
+    background-color:beige;
+    margin-top: 10px;
+}

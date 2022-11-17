@@ -13,8 +13,16 @@
 <body>
     <!-- title -->
     <h1 class="title">some website style refence</h1>
+    <!--nav-->
+    <nav id="navigation">
+        <ul class="breadscrumb">
+            <li><a href="#font">Font</a></li>
+            <li><a href="#text-style">Text Style</a></li>
+            <li><a href="#color">Color</a></li>
+        </ul>
+    </nav>
     <!--section 1 font-->
-    <section class="font">
+    <section class="font" id="font">
         <h2 class="subtitle">Font</h2>
         <div class="font-lobster">
             <h3>Lobster</h3>
@@ -34,10 +42,58 @@
             <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <p class="font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+        <ul class="go-to-nav">
+            <li><a href="#navigation">go back to navigation</a></li>
+        </ul>
     </section>
     <!--section 2 text style-->
-    <section class="text-style"></section>
+    <section class="text-style" id="text-style">
+        <h2 class="subtitle">Text Style</h2>
+        <div class="heading-style">
+            <h3>h1 heading</h3>
+            <p class="font-family">font-family: 'Montserrat', sans-serif</p>
+            <p class="font-size">font-size: h1 default</p>
+            <p class="font-weight">font-weight: 100</p>
+        </div>
+        <div class="subheading-style">
+            <h3>h2 subheading</h3>
+            <p class="font-family">font-family: 'Sono', sans-serif</p>
+            <p class="font-size">font-size: xx-large</p>
+            <p class="font-weight">font-weight: h2 default</p>
+            <p>font-style: italic</p>
+            <p>color: brown</p>
+        </div>
+        <div class="para-style">
+            <h3>p paragraphs</h3>
+            <p class="font-family">font-family: sans-serif</p>
+            <p class="font-size">font-size: medium</p>
+            <p class="font-weight">font-weight: 400</p>
+        </div>
+        <ul class="go-to-nav">
+            <li><a href="#navigation">go back to navigation</a></li>
+        </ul>
+    </section>
     <!-- section 3 color-->
-    <section class="color"></section>
+    <section class="color" id="color">
+        <h2 class="subtitle">Color</h2>
+        <div class="color-brown">
+            <p>brown</p>
+            <p>rgb(165, 42, 42)</p>
+            <p>usually used on subheading</p>
+        </div>
+        <div class="color-green">
+            <p>green</p>
+            <p>rgb(0, 128, 0)</p>
+            <p>usually used on border</p>
+        </div>
+        <div class="color-aliceblue">
+            <p>beige</p>
+            <p>rgb(245, 245, 220)</p>
+            <p>usually used on background color</p>
+        </div>
+        <ul class="go-to-nav">
+            <li><a href="#navigation">go back to navigation</a></li>
+        </ul>
+    </section>
 </body>
 </html>
